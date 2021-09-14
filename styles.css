@@ -1,0 +1,41 @@
+body{
+	font-family: 'Courier New', Courier, monospace;
+}
+table, td, th {    
+    border: 0px solid #ddd;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+/*
+table tr:hover {
+	background: #CCC;
+}
+*/
+table td:hover {
+	background: #000;
+	color: #fff;
+}
+
+table td{
+	background: #CCC;
+}
+td.RRHH{background-color:#F5A9E1}
+td.SE{background-color:#F7BE81}
+td.GLC{background-color:#F78181}
+td.ING{background-color:#F3F781}
+td.CF{background-color:#81BEF7}
+td.GF{background-color:#6799C7}
+td.TUT{background-color:#848484}
+td.GRIS{background-color:#dddddd}
+td.BLANCO{background-color:white}
+td.CBCR{background-color:white; font-weight:bold;}
